@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Overpass", sans-serif;
+	font-size: 15px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: hsl(240, 7%, 9%);
+}
+
+.rating-card {
+	width: 375px;
+	height: 400px;
+	border-radius: 30px;
+
+	margin-top: 14rem;
+	padding: 15px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: hsl(213, 19%, 18%);
+}
+
+.rating-card-body {
+	/* display: none; */
+}
+
+.rating-icon {
+	width: 47px;
+	height: 46px;
+	margin-left: 18px;
+	border-radius: 50%;
+	background-color: hsl(213, 19%, 21%);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rating-card-title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: hsl(0, 0%, 100%);
+}
+
+.rating-card-middle {
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.rating-card-info {
+	color: hsl(217, 12%, 63%);
+}
+
+.rating-card-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 15px;
+	margin-bottom: 30px;
+}
+
+.rating-card-buttons button {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-color: hsl(216, 12%, 25%);
+	color: hsl(217, 12%, 63%);
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+.rating-card-buttons button.selected {
+	background: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+}
+
+.rating-card-buttons button:hover {
+	background-color: hsl(216, 12%, 55%);
+	color: hsl(0, 0%, 100%);
+}
+
+.rating-card-buttons button.selected:hover {
+	background-color: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+}
+
+.rating-submit {
+	width: 310px;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: 17px;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+	background-color: hsl(25, 97%, 53%);
+	font-size: 16px;
+	color: white;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	transition: background-color 0.3s ease;
+}
+
+.rating-submit:hover {
+	background-color: hsl(0, 0%, 100%);
+	color: hsl(25, 97%, 53%);
+}
+
+.thanks-card-body {
+	display: none;
+}
+
+.thanks-card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.thanks-svg {
+	margin-top: 30px;
+}
+
+.selection-info {
+	color: hsl(25, 97%, 60%);
+	background-color: hsl(216, 12%, 25%);
+	height: 35px;
+	width: 190px;
+	border-radius: 25px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.thanks-card-middle {
+	padding: 4px;
+}
+
+.thanks-title {
+	font-size: 30px;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+	margin-top: 35px;
+}
+
+.thanks-description {
+	color: hsl(0, 0%, 60%);
+	margin-top: 20px;
+	line-height: 25px;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: hsl(0, 0%, 100%);
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
